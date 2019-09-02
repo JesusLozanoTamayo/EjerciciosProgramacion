@@ -6,7 +6,8 @@ public class DayOfTheProgrammer {
         return year%4==0;
     }
     public static boolean isGregorianLeap(int year){
-        if(year%400==0){
+        if(year%400==0)
+        {
             return true;
         }
         if(year%4 == 0){
